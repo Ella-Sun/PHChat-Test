@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CCADF521B9BCBF100CDD27E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCADF511B9BCBF100CDD27E /* main.m */; };
+		5CCADF551B9BCBF100CDD27E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCADF541B9BCBF100CDD27E /* AppDelegate.m */; };
+		5CCADF581B9BCBF100CDD27E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCADF571B9BCBF100CDD27E /* ViewController.m */; };
+		5CCADF5B1B9BCBF100CDD27E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCADF591B9BCBF100CDD27E /* Main.storyboard */; };
+		5CCADF5D1B9BCBF100CDD27E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CCADF5C1B9BCBF100CDD27E /* Images.xcassets */; };
+		5CCADF601B9BCBF100CDD27E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CCADF5E1B9BCBF100CDD27E /* LaunchScreen.xib */; };
+		5CCADF6C1B9BCBF100CDD27E /* PNChat_MTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCADF6B1B9BCBF100CDD27E /* PNChat_MTests.m */; };
+		5CCADF981B9BCC6B00CDD27E /* PNBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCADF771B9BCC6B00CDD27E /* PNBar.m */; };
+		5CCADF991B9BCC6B00CDD27E /* PNBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCADF791B9BCC6B00CDD27E /* PNBarChart.m */; };
+		5CCADF9A1B9BCC6B00CDD27E /* PNChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCADF7D1B9BCC6B00CDD27E /* PNChartLabel.m */; };
+		5CCADF9B1B9BCC6B00CDD27E /* PNCircleChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCADF7F1B9BCC6B00CDD27E /* PNCircleChart.m */; };
+		5CCADF9C1B9BCC6B00CDD27E /* PNColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCADF811B9BCC6B00CDD27E /* PNColor.m */; };
+		5CCADF9D1B9BCC6B00CDD27E /* PNGenericChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCADF831B9BCC6B00CDD27E /* PNGenericChart.m */; };
+		5CCADF9E1B9BCC6B00CDD27E /* PNLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCADF851B9BCC6B00CDD27E /* PNLineChart.m */; };
+		5CCADF9F1B9BCC6B00CDD27E /* PNLineChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCADF871B9BCC6B00CDD27E /* PNLineChartData.m */; };
+		5CCADFA01B9BCC6B00CDD27E /* PNLineChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCADF891B9BCC6B00CDD27E /* PNLineChartDataItem.m */; };
+		5CCADFA11B9BCC6B00CDD27E /* PNPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCADF8B1B9BCC6B00CDD27E /* PNPieChart.m */; };
+		5CCADFA21B9BCC6B00CDD27E /* PNPieChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCADF8D1B9BCC6B00CDD27E /* PNPieChartDataItem.m */; };
+		5CCADFA31B9BCC6B00CDD27E /* PNRadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCADF8F1B9BCC6B00CDD27E /* PNRadarChart.m */; };
+		5CCADFA41B9BCC6B00CDD27E /* PNRadarChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCADF911B9BCC6B00CDD27E /* PNRadarChartDataItem.m */; };
+		5CCADFA51B9BCC6B00CDD27E /* PNScatterChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCADF931B9BCC6B00CDD27E /* PNScatterChart.m */; };
+		5CCADFA61B9BCC6B00CDD27E /* PNScatterChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCADF951B9BCC6B00CDD27E /* PNScatterChartData.m */; };
+		5CCADFA71B9BCC6B00CDD27E /* PNScatterChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCADF971B9BCC6B00CDD27E /* PNScatterChartDataItem.m */; };
+		5CCADFD41B9BD34500CDD27E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCADFCC1B9BCE8100CDD27E /* UIKit.framework */; };
+		5CCADFD51B9BD35400CDD27E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCADFCE1B9BCEF000CDD27E /* QuartzCore.framework */; };
+		5CCADFD61B9BD36100CDD27E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCADFD01B9BCEFC00CDD27E /* CoreGraphics.framework */; };
+		5CCADFD81B9BD3D200CDD27E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCADFD21B9BCF0B00CDD27E /* Foundation.framework */; };
+		5CCADFDC1B9BD57F00CDD27E /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCADFDB1B9BD57F00CDD27E /* UICountingLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CCADF661B9BCBF100CDD27E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CCADF441B9BCBF100CDD27E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CCADF4B1B9BCBF100CDD27E;
+			remoteInfo = "PNChat-M";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CCADF4C1B9BCBF100CDD27E /* PNChat-M.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PNChat-M.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCADF501B9BCBF100CDD27E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CCADF511B9BCBF100CDD27E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CCADF531B9BCBF100CDD27E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CCADF541B9BCBF100CDD27E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CCADF561B9BCBF100CDD27E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CCADF571B9BCBF100CDD27E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CCADF5A1B9BCBF100CDD27E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CCADF5C1B9BCBF100CDD27E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5CCADF5F1B9BCBF100CDD27E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5CCADF651B9BCBF100CDD27E /* PNChat-MTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PNChat-MTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCADF6A1B9BCBF100CDD27E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CCADF6B1B9BCBF100CDD27E /* PNChat_MTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNChat_MTests.m; sourceTree = "<group>"; };
+		5CCADF761B9BCC6B00CDD27E /* PNBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNBar.h; sourceTree = "<group>"; };
+		5CCADF771B9BCC6B00CDD27E /* PNBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNBar.m; sourceTree = "<group>"; };
+		5CCADF781B9BCC6B00CDD27E /* PNBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNBarChart.h; sourceTree = "<group>"; };
+		5CCADF791B9BCC6B00CDD27E /* PNBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNBarChart.m; sourceTree = "<group>"; };
+		5CCADF7A1B9BCC6B00CDD27E /* PNChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChart.h; sourceTree = "<group>"; };
+		5CCADF7B1B9BCC6B00CDD27E /* PNChartDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChartDelegate.h; sourceTree = "<group>"; };
+		5CCADF7C1B9BCC6B00CDD27E /* PNChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChartLabel.h; sourceTree = "<group>"; };
+		5CCADF7D1B9BCC6B00CDD27E /* PNChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNChartLabel.m; sourceTree = "<group>"; };
+		5CCADF7E1B9BCC6B00CDD27E /* PNCircleChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNCircleChart.h; sourceTree = "<group>"; };
+		5CCADF7F1B9BCC6B00CDD27E /* PNCircleChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNCircleChart.m; sourceTree = "<group>"; };
+		5CCADF801B9BCC6B00CDD27E /* PNColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNColor.h; sourceTree = "<group>"; };
+		5CCADF811B9BCC6B00CDD27E /* PNColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNColor.m; sourceTree = "<group>"; };
+		5CCADF821B9BCC6B00CDD27E /* PNGenericChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNGenericChart.h; sourceTree = "<group>"; };
+		5CCADF831B9BCC6B00CDD27E /* PNGenericChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNGenericChart.m; sourceTree = "<group>"; };
+		5CCADF841B9BCC6B00CDD27E /* PNLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLineChart.h; sourceTree = "<group>"; };
+		5CCADF851B9BCC6B00CDD27E /* PNLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNLineChart.m; sourceTree = "<group>"; };
+		5CCADF861B9BCC6B00CDD27E /* PNLineChartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLineChartData.h; sourceTree = "<group>"; };
+		5CCADF871B9BCC6B00CDD27E /* PNLineChartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNLineChartData.m; sourceTree = "<group>"; };
+		5CCADF881B9BCC6B00CDD27E /* PNLineChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLineChartDataItem.h; sourceTree = "<group>"; };
+		5CCADF891B9BCC6B00CDD27E /* PNLineChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNLineChartDataItem.m; sourceTree = "<group>"; };
+		5CCADF8A1B9BCC6B00CDD27E /* PNPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNPieChart.h; sourceTree = "<group>"; };
+		5CCADF8B1B9BCC6B00CDD27E /* PNPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNPieChart.m; sourceTree = "<group>"; };
+		5CCADF8C1B9BCC6B00CDD27E /* PNPieChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNPieChartDataItem.h; sourceTree = "<group>"; };
+		5CCADF8D1B9BCC6B00CDD27E /* PNPieChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNPieChartDataItem.m; sourceTree = "<group>"; };
+		5CCADF8E1B9BCC6B00CDD27E /* PNRadarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRadarChart.h; sourceTree = "<group>"; };
+		5CCADF8F1B9BCC6B00CDD27E /* PNRadarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRadarChart.m; sourceTree = "<group>"; };
+		5CCADF901B9BCC6B00CDD27E /* PNRadarChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRadarChartDataItem.h; sourceTree = "<group>"; };
+		5CCADF911B9BCC6B00CDD27E /* PNRadarChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRadarChartDataItem.m; sourceTree = "<group>"; };
+		5CCADF921B9BCC6B00CDD27E /* PNScatterChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNScatterChart.h; sourceTree = "<group>"; };
+		5CCADF931B9BCC6B00CDD27E /* PNScatterChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNScatterChart.m; sourceTree = "<group>"; };
+		5CCADF941B9BCC6B00CDD27E /* PNScatterChartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNScatterChartData.h; sourceTree = "<group>"; };
+		5CCADF951B9BCC6B00CDD27E /* PNScatterChartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNScatterChartData.m; sourceTree = "<group>"; };
+		5CCADF961B9BCC6B00CDD27E /* PNScatterChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNScatterChartDataItem.h; sourceTree = "<group>"; };
+		5CCADF971B9BCC6B00CDD27E /* PNScatterChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNScatterChartDataItem.m; sourceTree = "<group>"; };
+		5CCADFCC1B9BCE8100CDD27E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5CCADFCE1B9BCEF000CDD27E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5CCADFD01B9BCEFC00CDD27E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5CCADFD21B9BCF0B00CDD27E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CCADFDA1B9BD57F00CDD27E /* UICountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
+		5CCADFDB1B9BD57F00CDD27E /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CCADF491B9BCBF100CDD27E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCADFD81B9BD3D200CDD27E /* Foundation.framework in Frameworks */,
+				5CCADFD61B9BD36100CDD27E /* CoreGraphics.framework in Frameworks */,
+				5CCADFD51B9BD35400CDD27E /* QuartzCore.framework in Frameworks */,
+				5CCADFD41B9BD34500CDD27E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCADF621B9BCBF100CDD27E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CCADF431B9BCBF100CDD27E = {
+			isa = PBXGroup;
+			children = (
+				5CCADFD91B9BD57F00CDD27E /* UICountingLabel */,
+				5CCADF751B9BCC6B00CDD27E /* PNChart */,
+				5CCADF4E1B9BCBF100CDD27E /* PNChat-M */,
+				5CCADFA81B9BCCFA00CDD27E /* FrameWorks */,
+				5CCADF681B9BCBF100CDD27E /* PNChat-MTests */,
+				5CCADF4D1B9BCBF100CDD27E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CCADF4D1B9BCBF100CDD27E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CCADF4C1B9BCBF100CDD27E /* PNChat-M.app */,
+				5CCADF651B9BCBF100CDD27E /* PNChat-MTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CCADF4E1B9BCBF100CDD27E /* PNChat-M */ = {
+			isa = PBXGroup;
+			children = (
+				5CCADF531B9BCBF100CDD27E /* AppDelegate.h */,
+				5CCADF541B9BCBF100CDD27E /* AppDelegate.m */,
+				5CCADF561B9BCBF100CDD27E /* ViewController.h */,
+				5CCADF571B9BCBF100CDD27E /* ViewController.m */,
+				5CCADF591B9BCBF100CDD27E /* Main.storyboard */,
+				5CCADF5C1B9BCBF100CDD27E /* Images.xcassets */,
+				5CCADF5E1B9BCBF100CDD27E /* LaunchScreen.xib */,
+				5CCADF4F1B9BCBF100CDD27E /* Supporting Files */,
+			);
+			path = "PNChat-M";
+			sourceTree = "<group>";
+		};
+		5CCADF4F1B9BCBF100CDD27E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CCADF501B9BCBF100CDD27E /* Info.plist */,
+				5CCADF511B9BCBF100CDD27E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CCADF681B9BCBF100CDD27E /* PNChat-MTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CCADF6B1B9BCBF100CDD27E /* PNChat_MTests.m */,
+				5CCADF691B9BCBF100CDD27E /* Supporting Files */,
+			);
+			path = "PNChat-MTests";
+			sourceTree = "<group>";
+		};
+		5CCADF691B9BCBF100CDD27E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CCADF6A1B9BCBF100CDD27E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CCADF751B9BCC6B00CDD27E /* PNChart */ = {
+			isa = PBXGroup;
+			children = (
+				5CCADF761B9BCC6B00CDD27E /* PNBar.h */,
+				5CCADF771B9BCC6B00CDD27E /* PNBar.m */,
+				5CCADF781B9BCC6B00CDD27E /* PNBarChart.h */,
+				5CCADF791B9BCC6B00CDD27E /* PNBarChart.m */,
+				5CCADF7A1B9BCC6B00CDD27E /* PNChart.h */,
+				5CCADF7B1B9BCC6B00CDD27E /* PNChartDelegate.h */,
+				5CCADF7C1B9BCC6B00CDD27E /* PNChartLabel.h */,
+				5CCADF7D1B9BCC6B00CDD27E /* PNChartLabel.m */,
+				5CCADF7E1B9BCC6B00CDD27E /* PNCircleChart.h */,
+				5CCADF7F1B9BCC6B00CDD27E /* PNCircleChart.m */,
+				5CCADF801B9BCC6B00CDD27E /* PNColor.h */,
+				5CCADF811B9BCC6B00CDD27E /* PNColor.m */,
+				5CCADF821B9BCC6B00CDD27E /* PNGenericChart.h */,
+				5CCADF831B9BCC6B00CDD27E /* PNGenericChart.m */,
+				5CCADF841B9BCC6B00CDD27E /* PNLineChart.h */,
+				5CCADF851B9BCC6B00CDD27E /* PNLineChart.m */,
+				5CCADF861B9BCC6B00CDD27E /* PNLineChartData.h */,
+				5CCADF871B9BCC6B00CDD27E /* PNLineChartData.m */,
+				5CCADF881B9BCC6B00CDD27E /* PNLineChartDataItem.h */,
+				5CCADF891B9BCC6B00CDD27E /* PNLineChartDataItem.m */,
+				5CCADF8A1B9BCC6B00CDD27E /* PNPieChart.h */,
+				5CCADF8B1B9BCC6B00CDD27E /* PNPieChart.m */,
+				5CCADF8C1B9BCC6B00CDD27E /* PNPieChartDataItem.h */,
+				5CCADF8D1B9BCC6B00CDD27E /* PNPieChartDataItem.m */,
+				5CCADF8E1B9BCC6B00CDD27E /* PNRadarChart.h */,
+				5CCADF8F1B9BCC6B00CDD27E /* PNRadarChart.m */,
+				5CCADF901B9BCC6B00CDD27E /* PNRadarChartDataItem.h */,
+				5CCADF911B9BCC6B00CDD27E /* PNRadarChartDataItem.m */,
+				5CCADF921B9BCC6B00CDD27E /* PNScatterChart.h */,
+				5CCADF931B9BCC6B00CDD27E /* PNScatterChart.m */,
+				5CCADF941B9BCC6B00CDD27E /* PNScatterChartData.h */,
+				5CCADF951B9BCC6B00CDD27E /* PNScatterChartData.m */,
+				5CCADF961B9BCC6B00CDD27E /* PNScatterChartDataItem.h */,
+				5CCADF971B9BCC6B00CDD27E /* PNScatterChartDataItem.m */,
+			);
+			name = PNChart;
+			path = "PNChat-M/PNChart";
+			sourceTree = "<group>";
+		};
+		5CCADFA81B9BCCFA00CDD27E /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				5CCADFD21B9BCF0B00CDD27E /* Foundation.framework */,
+				5CCADFD01B9BCEFC00CDD27E /* CoreGraphics.framework */,
+				5CCADFCE1B9BCEF000CDD27E /* QuartzCore.framework */,
+				5CCADFCC1B9BCE8100CDD27E /* UIKit.framework */,
+			);
+			name = FrameWorks;
+			sourceTree = "<group>";
+		};
+		5CCADFD91B9BD57F00CDD27E /* UICountingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				5CCADFDA1B9BD57F00CDD27E /* UICountingLabel.h */,
+				5CCADFDB1B9BD57F00CDD27E /* UICountingLabel.m */,
+			);
+			name = UICountingLabel;
+			path = "PNChat-M/UICountingLabel";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CCADF4B1B9BCBF100CDD27E /* PNChat-M */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CCADF6F1B9BCBF100CDD27E /* Build configuration list for PBXNativeTarget "PNChat-M" */;
+			buildPhases = (
+				5CCADF481B9BCBF100CDD27E /* Sources */,
+				5CCADF491B9BCBF100CDD27E /* Frameworks */,
+				5CCADF4A1B9BCBF100CDD27E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PNChat-M";
+			productName = "PNChat-M";
+			productReference = 5CCADF4C1B9BCBF100CDD27E /* PNChat-M.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CCADF641B9BCBF100CDD27E /* PNChat-MTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CCADF721B9BCBF100CDD27E /* Build configuration list for PBXNativeTarget "PNChat-MTests" */;
+			buildPhases = (
+				5CCADF611B9BCBF100CDD27E /* Sources */,
+				5CCADF621B9BCBF100CDD27E /* Frameworks */,
+				5CCADF631B9BCBF100CDD27E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CCADF671B9BCBF100CDD27E /* PBXTargetDependency */,
+			);
+			name = "PNChat-MTests";
+			productName = "PNChat-MTests";
+			productReference = 5CCADF651B9BCBF100CDD27E /* PNChat-MTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CCADF441B9BCBF100CDD27E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Sunhong;
+				TargetAttributes = {
+					5CCADF4B1B9BCBF100CDD27E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					5CCADF641B9BCBF100CDD27E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 5CCADF4B1B9BCBF100CDD27E;
+					};
+				};
+			};
+			buildConfigurationList = 5CCADF471B9BCBF100CDD27E /* Build configuration list for PBXProject "PNChat-M" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CCADF431B9BCBF100CDD27E;
+			productRefGroup = 5CCADF4D1B9BCBF100CDD27E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CCADF4B1B9BCBF100CDD27E /* PNChat-M */,
+				5CCADF641B9BCBF100CDD27E /* PNChat-MTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CCADF4A1B9BCBF100CDD27E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCADF5B1B9BCBF100CDD27E /* Main.storyboard in Resources */,
+				5CCADF601B9BCBF100CDD27E /* LaunchScreen.xib in Resources */,
+				5CCADF5D1B9BCBF100CDD27E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCADF631B9BCBF100CDD27E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CCADF481B9BCBF100CDD27E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCADF9E1B9BCC6B00CDD27E /* PNLineChart.m in Sources */,
+				5CCADF991B9BCC6B00CDD27E /* PNBarChart.m in Sources */,
+				5CCADF9C1B9BCC6B00CDD27E /* PNColor.m in Sources */,
+				5CCADFA31B9BCC6B00CDD27E /* PNRadarChart.m in Sources */,
+				5CCADFA41B9BCC6B00CDD27E /* PNRadarChartDataItem.m in Sources */,
+				5CCADF581B9BCBF100CDD27E /* ViewController.m in Sources */,
+				5CCADF981B9BCC6B00CDD27E /* PNBar.m in Sources */,
+				5CCADFA61B9BCC6B00CDD27E /* PNScatterChartData.m in Sources */,
+				5CCADFA01B9BCC6B00CDD27E /* PNLineChartDataItem.m in Sources */,
+				5CCADF9A1B9BCC6B00CDD27E /* PNChartLabel.m in Sources */,
+				5CCADF551B9BCBF100CDD27E /* AppDelegate.m in Sources */,
+				5CCADFA71B9BCC6B00CDD27E /* PNScatterChartDataItem.m in Sources */,
+				5CCADFA21B9BCC6B00CDD27E /* PNPieChartDataItem.m in Sources */,
+				5CCADF521B9BCBF100CDD27E /* main.m in Sources */,
+				5CCADF9F1B9BCC6B00CDD27E /* PNLineChartData.m in Sources */,
+				5CCADFA51B9BCC6B00CDD27E /* PNScatterChart.m in Sources */,
+				5CCADF9B1B9BCC6B00CDD27E /* PNCircleChart.m in Sources */,
+				5CCADFDC1B9BD57F00CDD27E /* UICountingLabel.m in Sources */,
+				5CCADFA11B9BCC6B00CDD27E /* PNPieChart.m in Sources */,
+				5CCADF9D1B9BCC6B00CDD27E /* PNGenericChart.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCADF611B9BCBF100CDD27E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCADF6C1B9BCBF100CDD27E /* PNChat_MTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CCADF671B9BCBF100CDD27E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CCADF4B1B9BCBF100CDD27E /* PNChat-M */;
+			targetProxy = 5CCADF661B9BCBF100CDD27E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CCADF591B9BCBF100CDD27E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CCADF5A1B9BCBF100CDD27E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CCADF5E1B9BCBF100CDD27E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CCADF5F1B9BCBF100CDD27E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CCADF6D1B9BCBF100CDD27E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CCADF6E1B9BCBF100CDD27E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CCADF701B9BCBF100CDD27E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "PNChat-M/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CCADF711B9BCBF100CDD27E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "PNChat-M/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5CCADF731B9BCBF100CDD27E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PNChat-MTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PNChat-M.app/PNChat-M";
+			};
+			name = Debug;
+		};
+		5CCADF741B9BCBF100CDD27E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PNChat-MTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PNChat-M.app/PNChat-M";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CCADF471B9BCBF100CDD27E /* Build configuration list for PBXProject "PNChat-M" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CCADF6D1B9BCBF100CDD27E /* Debug */,
+				5CCADF6E1B9BCBF100CDD27E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CCADF6F1B9BCBF100CDD27E /* Build configuration list for PBXNativeTarget "PNChat-M" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CCADF701B9BCBF100CDD27E /* Debug */,
+				5CCADF711B9BCBF100CDD27E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CCADF721B9BCBF100CDD27E /* Build configuration list for PBXNativeTarget "PNChat-MTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CCADF731B9BCBF100CDD27E /* Debug */,
+				5CCADF741B9BCBF100CDD27E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CCADF441B9BCBF100CDD27E /* Project object */;
+}
