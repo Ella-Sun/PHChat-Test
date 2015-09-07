@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ShowViewController.h
 //  PNChat-M
 //
 //  Created by SunHong on 15/9/6.
@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ShowViewController : UIViewController
+
+@property (nonatomic, assign) NSInteger showNo;
 
 @end
-

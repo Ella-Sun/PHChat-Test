@@ -35,6 +35,7 @@
 		5CCADFD61B9BD36100CDD27E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCADFD01B9BCEFC00CDD27E /* CoreGraphics.framework */; };
 		5CCADFD81B9BD3D200CDD27E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCADFD21B9BCF0B00CDD27E /* Foundation.framework */; };
 		5CCADFDC1B9BD57F00CDD27E /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCADFDB1B9BD57F00CDD27E /* UICountingLabel.m */; };
+		5CCAE04D1B9C511200CDD27E /* ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCAE04C1B9C511200CDD27E /* ShowViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,8 @@
 		5CCADFD21B9BCF0B00CDD27E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5CCADFDA1B9BD57F00CDD27E /* UICountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
 		5CCADFDB1B9BD57F00CDD27E /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
+		5CCAE04B1B9C511200CDD27E /* ShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowViewController.h; sourceTree = "<group>"; };
+		5CCAE04C1B9C511200CDD27E /* ShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +156,8 @@
 				5CCADF541B9BCBF100CDD27E /* AppDelegate.m */,
 				5CCADF561B9BCBF100CDD27E /* ViewController.h */,
 				5CCADF571B9BCBF100CDD27E /* ViewController.m */,
+				5CCAE04B1B9C511200CDD27E /* ShowViewController.h */,
+				5CCAE04C1B9C511200CDD27E /* ShowViewController.m */,
 				5CCADF591B9BCBF100CDD27E /* Main.storyboard */,
 				5CCADF5C1B9BCBF100CDD27E /* Images.xcassets */,
 				5CCADF5E1B9BCBF100CDD27E /* LaunchScreen.xib */,
@@ -367,6 +372,7 @@
 				5CCADF9F1B9BCC6B00CDD27E /* PNLineChartData.m in Sources */,
 				5CCADFA51B9BCC6B00CDD27E /* PNScatterChart.m in Sources */,
 				5CCADF9B1B9BCC6B00CDD27E /* PNCircleChart.m in Sources */,
+				5CCAE04D1B9C511200CDD27E /* ShowViewController.m in Sources */,
 				5CCADFDC1B9BD57F00CDD27E /* UICountingLabel.m in Sources */,
 				5CCADFA11B9BCC6B00CDD27E /* PNPieChart.m in Sources */,
 				5CCADF9D1B9BCC6B00CDD27E /* PNGenericChart.m in Sources */,
@@ -564,6 +570,7 @@
 				5CCADF711B9BCBF100CDD27E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CCADF721B9BCBF100CDD27E /* Build configuration list for PBXNativeTarget "PNChat-MTests" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +579,7 @@
 				5CCADF741B9BCBF100CDD27E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
